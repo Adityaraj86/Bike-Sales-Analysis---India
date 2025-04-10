@@ -45,98 +45,98 @@ The code handles missing values in columns like average daily distance, brand, m
 ### 1. State-wise Sales Count
 Bar chart showing distribution of bike sales across different states.
 
-![State-wise Sales Count](./images/state_sales_count.png)
+![State-wise Sales Count](./Chart_1.png)
 
 **Objective**: To identify high and low-performing regions in terms of sales volume.
 
 ### 2. Average Daily Distance by Brand
 Line plot comparing average daily usage across brands.
 
-![Average Daily Distance by Brand](./images/avg_distance_brand.png)
+![Average Daily Distance by Brand](./Chart_2.png)
 
 **Objective**: To compare how much bikes from different brands are used on average per day, indicating usage intensity and potentially brand reliability or preference for long distances.
 
 ### 3. Brand Market Share
 Pie chart illustrating each brand's market presence.
 
-![Brand Market Share](./images/brand_market_share.png)
+![Brand Market Share](./Chart_3.png)
 
 **Objective**: To illustrate each brand's share in the total number of bikes, providing a snapshot of the competitive landscape.
 
 ### 4. Distribution of Bike Prices
 Histogram showing price distribution patterns.
 
-![Distribution of Bike Prices](./images/price_distribution.png)
+![Distribution of Bike Prices](./Chart_4.png)
 
 **Objective**: To understand the price distribution of bikes, identify pricing clusters, skewness, and potential outliers in the dataset.
 
 ### 5. Resale Ratio vs Bike Age
 Box plot demonstrating how value retention changes with age.
 
-![Resale Ratio vs Bike Age](./images/resale_ratio_age.png)
+![Resale Ratio vs Bike Age](./Chart_5.png)
 
 **Objective**: To show how the resale value of bikes (as a percentage of the original price) declines with age, helping analyze depreciation patterns.
 
 ### 6. Average Resale Price by Brand
 Horizontal bar chart comparing brand resale values.
 
-![Average Resale Price by Brand](./images/avg_resale_brand.png)
+![Average Resale Price by Brand](./Chart_6.png)
 
 **Objective**: To compare the average resale prices among brands, indicating which brands retain more value in the secondary market.
 
 ### 7. Feature Correlation Heatmap
 Correlation analysis between numeric variables.
 
-![Feature Correlation Heatmap](./images/correlation_heatmap.png)
+![Feature Correlation Heatmap](./Chart_7.png)
 
 **Objective**: To show how different numeric features relate to each other (positive or negative correlation), aiding in feature selection and data understanding.
 
 ### 8. Insurance Status Count
 Line plot showing distribution of insurance statuses.
 
-![Insurance Status Count](./images/insurance_status.png)
+![Insurance Status Count](./Chart_8.png)
 
 **Objective**: To visualize the number of bikes based on their insurance status, highlighting coverage distribution across the dataset.
 
 ### 9. Sales Trend by Registration Year
 Line chart tracking sales patterns over time.
 
-![Sales Trend by Registration Year](./images/sales_trend.png)
+![Sales Trend by Registration Year](./Chart_9.png)
 
 **Objective**: To track how bike registrations (sales) have changed over time, revealing demand trends or dips across years.
 
 ### 10. Bike Price Distribution by City Tier
 Box plot comparing prices across different city tiers.
 
-![Bike Price Distribution by City Tier](./images/price_city_tier.png)
+![Bike Price Distribution by City Tier](./Chart_10.png)
 
 **Objective**: To compare bike price ranges in different tiers of cities, reflecting how location influences pricing.
 
 ### 11. Price vs Resale Price Correlation
 Scatter plot examining relationship between original and resale prices.
 
-![Price vs Resale Price](./images/price_resale_correlation.png)
+![Price vs Resale Price](./Chart_11.png)
 
 **Objective**: To explore the relationship between original price and resale price, identifying patterns in value retention across price segments.
 
 ### 12. Fuel Type Trends Over Years
 Grouped bar plot showing fuel type popularity changes.
 
-![Fuel Type Trends](./images/fuel_type_trends.png)
+![Fuel Type Trends](./Chart_12.png)
 
 **Objective**: To track how the usage of different fuel types in bikes has changed over the years, revealing shifts toward or away from certain fuel types (e.g., electric).
 
 ### 13. Pairplot of Numeric Features
 Multi-dimensional analysis of selected numeric variables.
 
-![Pairplot of Features](./images/feature_pairplot.png)
+![Pairplot of Features](.Chart_13.png)
 
 **Objective**: To analyze relationships and distributions among selected numeric features, while observing how they vary across years of manufacture.
 
 ### 14. Average Price by Brand
 Horizontal bar chart comparing brand pricing strategies.
 
-![Average Price by Brand](./images/avg_price_brand.png)
+![Average Price by Brand](./Chart_14.png)
 
 **Objective**: To compare the average bike price among brands, providing insight into brand positioning (budget vs premium).
 
@@ -151,7 +151,7 @@ A linear regression model predicts bike resale prices based on the original pric
 3. Model training and evaluation using Mean Squared Error
 4. User-friendly prediction function for estimating resale values
 
-![Regression Model Results](./images/regression_model.png)
+![Regression Model Results](./Chart_15.png)
 
 ## How to Use
 1. Install required libraries: `pip install pandas numpy matplotlib seaborn scikit-learn`
@@ -164,3 +164,16 @@ A linear regression model predicts bike resale prices based on the original pric
 - Explore non-linear models for potentially better prediction accuracy
 - Add cross-validation for more robust model evaluation
 - Develop a web interface for interactive predictions
+
+## Technologies Used
+- *Python 3.x*
+- *Pandas* for data manipulation
+- *Matplotlib* and *Seaborn* for data visualization
+- *Scikit-learn* for machine learning implementation
+
+## Installation and Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Amangarg5990/Bike-Sales-Analysis---India
+cd Bike-Sales-Analysis---India
