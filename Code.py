@@ -288,3 +288,11 @@ predicted_price = predict_resale_price(input_price)
 print(f"Original Price: {input_price:,.2f} INR")
 print(f"Predicted Resale Price: {predicted_price:,.2f} INR")
 
+# Interactive prediction
+try:
+    user_price = float(input("\nEnter a price to predict resale value (INR): "))
+    user_prediction = predict_resale_price(user_price)
+    print(f"For a bike with original price {user_price:,.2f} INR")
+    print(f"The predicted resale price is {user_prediction:,.2f} INR")
+except ValueError:
+    print("Please enter a valid number")
